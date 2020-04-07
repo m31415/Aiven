@@ -1,5 +1,5 @@
 from unittest.mock import patch
-from .base import BaseTest
+from .test_base import BaseTest
 import json
 
 clouds = [
