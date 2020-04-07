@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CloudListHeaderComponent renders as usual 1`] = `
+"<div className=\\"row cloudListHeader background text-center\\">
+  <div>
+    <h1 className=\\"headerText\\">
+      Cloud Selection
+    </h1>
+  </div>
+  <div className=\\"row filter\\">
+    <p className=\\"col\\">
+      Sort by Distance
+    </p>
+    <div className=\\"col\\">
+      <Button name=\\"sortDistance\\" variant=\\"warning\\" onClick={[Function: onClick]} active={false} disabled={false} type=\\"button\\">
+        <i className=\\"fas fa-location-arrow\\" />
+      </Button>
+    </div>
+  </div>
+  <div className=\\"row filter\\">
+    <p className=\\"col\\">
+      Filter by Provider
+    </p>
+    <div className=\\"col\\">
+      <DropdownButton alignRight={true} id=\\"dropdown-menu-align-right\\" variant=\\"warning\\" onSelect={[Function: select]} title=\\"Digital Ocean\\">
+        <DropdownItem eventKey={{...}} as={{...}} disabled={false}>
+          All
+        </DropdownItem>
+        <DropdownItem eventKey=\\"aws\\" as={{...}} disabled={false}>
+          Amazon Web Services
+        </DropdownItem>
+        <DropdownItem eventKey=\\"do\\" as={{...}} disabled={false}>
+          Digital Ocean
+        </DropdownItem>
+        <DropdownItem eventKey=\\"google\\" as={{...}} disabled={false}>
+          Google Cloud
+        </DropdownItem>
+        <DropdownItem eventKey=\\"azure\\" as={{...}} disabled={false}>
+          Azure
+        </DropdownItem>
+        <DropdownItem eventKey=\\"upcloud\\" as={{...}} disabled={false}>
+          UpCloud
+        </DropdownItem>
+      </DropdownButton>
+    </div>
+  </div>
+</div>"
+`;

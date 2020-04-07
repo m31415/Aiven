@@ -127,3 +127,14 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# JS
+
+/client/node_modules
+/static
+
+# Deploy
+
+update.sh
+docker-compose.yml
+.aws/

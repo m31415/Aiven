@@ -1,0 +1,55 @@
+html {
+  font-family: arial;
+}
+
+.background {
+  background: linear-gradient(
+    -217deg,
+    #ff7343 0%,
+    #ff3554 97%,
+    #ff3554 97%,
+    #f35 100%
+  );
+}
+
+.darkBackground {
+  background: linear-gradient(
+    318.32deg,
+    #c3d1e4 -0.02%,
+    #dde7f3 54.14%,
+    #d4e0ed 100.43%
+  );
+}
+
+.cloudListHeader {
+  color: white;
+  font-size: 3rem;
+  flex-direction: column;
+}
+
+.headerText {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.filter {
+  font-size: 1.4rem;
+}
+
+#cloudContainer {
+  color: white;
+  border: none;
+  box-shadow: 6px 2px 16px rgba(136, 165, 191, 0.48),
+    -6px -2px 16px rgba(255, 255, 255, 0.8);
+  border-radius: 2rem;
+}
+
+#cloudBody {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.cloudDistance {
+  font-size: 1.8rem;
+}
