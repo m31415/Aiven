@@ -8,6 +8,10 @@ aiven_cloud_list_url = "https://api.aiven.io/v1/clouds"
 
 
 def get_aiven_clouds():
+    """
+    Fetch cloud list from Aiven-API
+    :return: List of Cloud objects
+    """
 
     result = requests.get(
         url=aiven_cloud_list_url,
@@ -36,7 +40,7 @@ def filter_valid_schema(data, schema):
 def check_for_error(result):
     """
     Check if request for errors
-    :param result:
+    :param result: request
     :return:
     """
     try:
