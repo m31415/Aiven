@@ -54,7 +54,7 @@ export default function MainComponent(props) {
       .then(result => {
         setCloudList(camelcaseKeysDeep(result));
       });
-  }, [providerFilter, sortDistance]);
+  }, [providerFilter, sortDistance, currentPosition]);
 
   return (
     <ClientContext.Provider
