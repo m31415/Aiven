@@ -29,5 +29,4 @@ CloudListComponent.propTypes = {
       geoRegion: PropTypes.string.isRequired
     })
   ).isRequired,
-  lang: PropTypes.string
 };
